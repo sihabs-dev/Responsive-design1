@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* shared css */
+.display-flex {
+    display: flex;
+}
+
+.color-dark1 {
+    color: #131313;
+}
+.color-dark2 {
+    color: #424242;
+}
+.color-dark3 {
+    color: #727272;
+}
+
+header {
+    background-color: #FF900E15;
+}
+/* header section */
+/* nav */
+nav {
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 30px;
+    align-items: center;
+}
+nav h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    gap: 40px;
+
+}
+nav ul a {
+    text-decoration: none;
+    
+}
+/* end nav */
+/* start banner section */
+
+
+
+
+
+
+/* Responsive design */
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
