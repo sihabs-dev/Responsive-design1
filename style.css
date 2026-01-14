@@ -28,6 +28,7 @@ nav,
 .color-dark3 {
     color: #727272;
 }
+
 .btn {
     background-color: #FF900E;
     color: #ffffff;
@@ -48,6 +49,7 @@ p {
 header {
     background-color: #FF900E15;
 }
+
 /* nav */
 nav {
     padding-top: 30px;
@@ -83,14 +85,17 @@ nav ul a {
     text-align: center;
     margin-bottom: 30px;
 }
+
 .banner-section .banner-text h1 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 15px;
 }
+
 .banner-section .banner-text P {
     margin-bottom: 10px;
 }
+
 .banner-section .banner-image img {
     width: 100%;
     vertical-align: text-bottom;
@@ -106,25 +111,128 @@ nav ul a {
     align-items: center;
     gap: 70px;
 }
+
 .quick-section .quick-image {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 
 }
+
 .quick-section .quick-image img {
     width: 100%;
 }
+
 .quick-section .quick-text h1 {
     font-size: 2.4rem;
     font-weight: bold;
     margin-bottom: 15px;
 }
+
 .quick-section .quick-text h1 .feature {
     color: #FF900E;
 }
-.quick-section .quick-text  p {
+
+.quick-section .quick-text p {
     margin-bottom: 15px;
+}
+
+/* feature-section  */
+.feature-section {
+    max-width: 1200px;
+    margin: 100px auto 50px;
+    gap: 5%;
+    justify-content: space-between;
+
+}
+
+.feature-section .feature-info {
+    width: 45%;
+}
+
+.feature-section .feature-info h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 15px;
+}
+
+.feature-info p {
+    margin-bottom: 25px;
+}
+
+.feature-info .card {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 30px 0 #00000010;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.feature-image {
+    width: 50%;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.feature-image button {
+    padding: 30px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    background-color: #FF900E;
+
+}
+
+.years {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.experience {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.button {
+    margin-left: -50px;
+    margin-top: -100px;
+}
+
+/* sponsor-section */
+.sponsor-section {
+    max-width: 1200px;
+    margin: 0 auto 100px;
+
+}
+
+.sponsor-section .sponsor-info {
+    max-width: 550px;
+    margin: auto;
+    text-align: center;
+}
+
+.sponsor-info h1 {
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sponsor-info p {
+    margin-bottom: 30px;
+}
+
+.sponsor-logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 120px;
+}
+
+.sponsor-logo img {
+    width: 100%;
+    filter: grayscale(100%);
 }
 
 
@@ -137,33 +245,70 @@ nav ul a {
         flex-direction: column;
         gap: 15px;
     }
-    nav h1 {
-    font-size: 1.8rem;
 
-}
+    nav h1 {
+        font-size: 1.8rem;
+
+    }
+
     .banner-section {
-    margin: 30px;
-}
+        margin: 30px;
+    }
+
     .banner-section .banner-text h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-.banner-section .banner-text P {
-    font-size: 0.9rem;
-    line-height: 1.1rem;
-}
-.quick-section {
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 80px;
-}
-.quick-section .quick-image {
-    gap: 15px;
-    margin: 0 3%;
-}
-.quick-section .quick-text {
-    text-align: center;
-}
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .banner-section .banner-text P {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+    }
+
+    .quick-section {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 80px;
+    }
+
+    .quick-section .quick-image {
+        gap: 15px;
+        margin: 0 3%;
+    }
+
+    .quick-section .quick-text {
+        text-align: center;
+    }
+
+    .feature-section {
+        flex-direction: column;
+    }
+
+    .feature-section .feature-info {
+        width: 94%;
+        margin: 0 3%;
+    }
+
+    .feature-image {
+        width: 100%;
+    }
+
+    .button {
+        margin-left: 0px;
+        margin-top: -40px;
+    }
+
+    .sponsor-info h1 {
+        font-size: 2.5rem;
+    }
+
+    .sponsor-logo {
+        width: 40%;
+        margin: auto;
+        grid-template-rows: repeat(5, 100px);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 
 
 }
