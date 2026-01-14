@@ -307,7 +307,7 @@ nav ul a {
         margin: auto;
         grid-template-rows: repeat(5, 100px);
         grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
+        gap: 12px;
     }
 
 
